@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link type="text/css" rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/7f0a4f22ed.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="flex-container">
-      <div class="flex-item">1</div>
-      <div class="flex-item">2</div>
-      <div class="flex-item">3</div>
-      <div class="flex-item item-4">4</div>
-      <div class="flex-item">5</div>
-      <div class="flex-item">6</div>
-      <div class="flex-item">7</div>
-      <div class="flex-item">8</div>
-      <div class="flex-item item-9">9</div>
-      <div class="flex-item item-10">10</div>
+    <div class="container">
+      <div class="top-section">
+        <div style="font-size: 60px"><i class="fa-brands fa-github"></i></div>
+        <div style="font-size: 1.5rem">Sign in to GitHub</div>
+      </div>
+      <form class="form-container">
+        <label for="username">Username or email address</label>
+        <input class="input-container" type="text" name="username" />
+        <label for="password">Password</label>
+        <input class="input-container" type="text" name="password" />
+        <button class="input-container" type="submit">Sign in</button>
+      </form>
     </div>
   </body>
 </html>

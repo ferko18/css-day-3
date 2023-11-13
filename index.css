@@ -59,36 +59,32 @@ select {
   font: inherit;
 }
 
-.flex-container {
-  border: solid black 1px;
-  width: 600px;
+.container {
+  width: 400px;
   height: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  gap:5px
-}
-
-.flex-item {
-  width: 80px;
-  height: 80px;
   border: solid black 1px;
+  margin: 0 auto;
+}
+.top-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
 }
-.item-10 {
-  flex-grow: 1;
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f8fa;
+  border: solid #d8dee3 1px;
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 6px;
+  gap: 10px;
 }
-
-.item-9 {
-  flex-grow: 1;
+.input-container{
+  width:95%;
 }
-
-/* .item-4{
-    flex-grow: 1;
-} */
